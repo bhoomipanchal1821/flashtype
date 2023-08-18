@@ -1,0 +1,18 @@
+.conatiner {
+  font-family: "Poppins", sans-serif;
+}
+.w-75.row.fs-5.mt-5.mx-auto {
+  height: 25rem;
+}
+.textarea::-webkit-scrollbar {
+  display: none;
+}
+.textarea:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+div.col.overflow-scroll.api:hover {
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+.col.overflow-scroll.api {
+  background-color: #eeeeee;
+}

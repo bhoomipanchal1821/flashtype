@@ -1,0 +1,33 @@
+.d-flex.justify-content-between.align-items-center {
+    color: #e7e6e7;
+    min-height: 90vh;
+    font-family: 'Bangers', cursive;
+}
+.display-1 {
+    font-size: 6rem !important;
+    letter-spacing: 0.25rem;
+}
+
+.display-2{
+    letter-spacing: 0.25rem;
+}
+img.hero-img {
+    width: 40vh;
+}
+
+@media (max-width:800px){
+    .d-flex.justify-content-between.align-items-center {
+        flex-direction: column;
+        align-items: center;
+    }
+    img.hero-img {
+        width: 80vh;
+    }
+    .display-1{
+        text-align: center;
+        margin-top: 2rem;
+    }
+    .display-2{
+        text-align: center;
+    }
+}
