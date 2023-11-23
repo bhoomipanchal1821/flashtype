@@ -6,7 +6,7 @@ import ChallangeSection from "./components/ChallangeSection/ChallangeSection";
 import Footer from "./components/Footer/Footer";
 import React, { useInsertionEffect } from "react";
 
-const Totaltime = 2;
+const Totaltime = 60;
 const ApiUrl = " http://metaphorpsum.com/paragraphs/1/9";
 const DefaultState = {
   selectedParagraph: "",
